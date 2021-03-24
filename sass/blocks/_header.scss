@@ -1,0 +1,25 @@
+.header {
+  padding: 15px 0;
+  background-color: #0072bc;
+  &__logo {
+    margin: 0 auto 10px auto;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    img {
+      width: 105px;
+      height: 88px;
+    }
+  }
+  &__btn {
+    width: 60%;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    background-color: #f26522;
+    font-weight: bold;
+    font-size: 13px;
+    color: #fdfafa;
+  }
+}
