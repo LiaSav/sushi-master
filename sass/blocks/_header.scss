@@ -7,9 +7,14 @@
     font-size: 16px;
     color: #fff;
     text-align: center;
-    img {
-      width: 105px;
-      height: 88px;
+    a {
+      picture {
+        img {
+          padding-right: 15px;
+          width: 105px;
+          height: 88px;
+        }
+      }
     }
   }
   &__btn {

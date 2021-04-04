@@ -1,12 +1,19 @@
 $(document).ready(function () {
-  $(".carousel__inner").slick({
-    dots: true,
+  $(".slider").slick({
     speed: 1200,
     adaptiveHeight: true,
     fade: true,
     cssEase: "linear",
-    prevArrow: '<button class="slick-prev"></button>',
-    nextArrow: '<button type="button" class="slick-next"></button>'
+    centerMode: true,
+    mobileFirst: true,
+    responsive: [
+      {
+        breakpoint: 575,
+        settings: {
+          dots: true,
+        },
+      },
+    ],
   });
 });
 

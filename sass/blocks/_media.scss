@@ -19,20 +19,16 @@
       width: 390px;
     }
   }
-  .carousel {
-    &__inner {
-      width: 510px;
-    }
-    &__slider {
-      height: 170px;
+  .slider {
+    &__item {
+      &-text {
+        font-size: 18px;
+      }
     }
   }
   .slick-dots {
     li {
-      margin: 0 0 0 30px;
-      &:last-child {
-        margin-right: 30px;
-      }
+      margin: 0 20px;
     }
   }
 }
@@ -91,34 +87,28 @@
     &__header {
       font-size: 22.5px;
     }
-    &__inner {
-      padding: 40px 0 90px 0;
-      width: 710px;
-    }
-    &__slider {
-      height: 250px;
+  }
+  .slider {
+    &__item {
       &-text {
         font-size: 22px;
         &.center {
-          margin-top: 22px;
+          top: 22px;
         }
         &.right {
           bottom: 22px;
           right: 22px;
         }
         &.top-right {
-          margin-top: 22px;
-          margin-right: 22px;
+          top: 22px;
+          right: 22px;
         }
       }
     }
   }
   .slick-dots {
     li {
-      margin: 0 0 0 40px;
-      &:last-child {
-        margin-right: 40px;
-      }
+      margin: 0 30px;
     }
   }
 }
@@ -126,65 +116,90 @@
   .container {
     max-width: 968px;
   }
+  .header {
+    &__logo,
+    &__btn {
+      font-size: 18px;
+    }
+  }
   .main {
+    &__header {
+      font-size: 28px;
+    }
     &__subtitle {
       margin-top: 42px;
+      font-size: 22px;
     }
     &__title {
       margin-top: 40px;
+      font-size: 22px;
     }
     &__items {
       margin-top: 40px;
     }
     &__item {
+      &-title {
+        font-size: 21px;
+      }
+      &-descr {
+        font-size: 18px;
+      }
       &-btn {
         margin-top: 32px;
+        font-size: 18.5px;
       }
     }
     &__sets {
       width: 390px;
+      &-title {
+        font-size: 21px;
+      }
     }
   }
   .carousel {
     padding: 72px 0 128px 0;
-    &__inner {
-      padding: 54px 0 102px 0;
-      width: 901px;
+    &__header {
+      font-size: 28px;
     }
-    &__slider {
+  }
+  .slider {
+    padding: 45px 0 90px 0;
+    width: 900px;
+    
+    &__item {
       height: 300px;
       &-text {
         font-size: 32px;
         line-height: 32px;
         &.center {
-          margin-top: 42px;
+          top: 42px;
         }
         &.right {
           bottom: 39px;
           right: 44px;
         }
         &.top-right {
-          margin-top: 31px;
-          margin-right: 68px;
+          top: 31px;
+          right: 68px;
         }
       }
     }
   }
   .slick-prev,
   .slick-next {
-    bottom: 2%;
+    bottom: 1%;
     width: 30px;
     height: 30px;
   }
   .slick-dots {
     button {
-      width: 44px;
-      height: 44px;
+      width: 35px;
+      height: 35px;
     }
   }
   .footer {
     padding: 25px 0 25px 0;
-    font-size: 14px;
+    font-size: 18px;
   }
 }
 @media (min-width: 1200px) {
